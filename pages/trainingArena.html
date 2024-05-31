@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/trainingArena.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <a href="../index.html" class="logo">PUBG</a>
+        <nav>
+            <ul>
+                <li><a href="../pages/trainingArena.html">Training arena</a></li>
+                <li><a href="../pages/gamingCustoms.html">Gaming customs</a></li>
+                <li><a href="../pages/players.html">Players</a></li>
+            </ul>
+        </nav>
+        <button class="btn" id="btn-get">Click me!</button>
+    </div>
+    <div class="gmail_block">
+        <div class="container">
+            <h3>Training 1 (part 1)</h3>
+            <div class="inner_gmail_block">
+                <div class="form_gmail">
+                    <label for="gmail_input"></label>
+                    <input type="text" id="gmail_input" placeholder="your gmail">
+                    <button class="btn" id="gmail_button">Check gmail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="move_block">
+        <div class="container">
+            <h3>Training 1 (part 2)</h3>
+            <div class="inner_move_block">
+                <div class="parent_block">
+                    <button class="child_block">
+                        <img src="../images/target.webp" alt="target">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stopwatch">
+        <div class="container">
+            <h3>Training 2 </h3>
+            <div class="time">
+                <div class="time_block">
+                    <div class="interval" id="seconds">0</div>
+                </div>
+            </div>
+            <div class="time_buttons">
+                <button class="btn" id="start">Start</button>
+                <button class="btn" id="stop">Stop</button>
+                <button class="btn" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Спасибо,что помогаете улучшить нашу игру!</div>
+                <input
+                        required
+                        placeholder="Ваше игровое имя"
+                        name="name"
+                        type="text"
+                        class="modal_input"
+                >
+                <input
+                        required
+                        placeholder="Имя игрока, нарушившего правила"
+                        name="enemy"
+                        type="text"
+                        class="modal_input"
+                >
+                <input
+                        required
+                        placeholder="Жалоба"
+                        name="complaint"
+                        class="modal_input"
+                >
+                <button class="btn btn_dark btn_min">Обратить на это внимание</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/trainingArena.js"></script>
+<script src="../js/modal.js"></script>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monster</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/core.css">
+  <link rel="stylesheet" href="../css/monster.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <a href="../index.html" class="logo">PUBG</a>
+    <nav>
+      <ul>
+        <li><a href="../pages/trainingArena.html">Training arena</a></li>
+        <li><a href="../pages/gamingCustoms.html">Gaming customs</a></li>
+        <li><a href="../pages/players.html">Players</a></li>
+      </ul>
+    </nav>
+    <button class="btn" id="btn-get">Click me!</button>
+  </div>
+</div>
+<canvas id="canvas"></canvas>
+
+<div class="modal">
+  <div class="modal_dialog">
+    <div class="modal_content">
+      <form action="#">
+        <div class="modal_close">&times;</div>
+        <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+        <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+        <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+        <button class="btn btn_dark btn_min">Перезвонить мне</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="../js/monster.js"></script>
+</html>
